@@ -1,5 +1,5 @@
 import {useState, useEffect} from "react";
-import PrimaryButton from ".../components/primary-button";
+import PrimaryButton from "../components/primary-button";
 
 
 export default function Home() {
