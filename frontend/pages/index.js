@@ -32,7 +32,7 @@ export default function Home() {
         }
     }
 
-    useEffect(()=> getConnectedAccount(),[]);
+    useEffect(() => getConnectedAccount(),[]);
 
     const connectAccount = async () => { 
       if(!ethereum){
